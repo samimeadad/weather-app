@@ -1,4 +1,4 @@
-const APIKEY = 'd714fa24a5030cb0925ff0ca14d0f814';
+const APIKEY = '64b399b8d76f2da3d0b926b7a709bb45';
 
 const loadWeatherData = async () => {
     const searchField = document.getElementById( 'input-field' );
@@ -29,7 +29,6 @@ document.getElementById( 'search-button' ).addEventListener( 'click', () => {
 } );
 
 const displayWeatherData = city => {
-    console.log( city );
     const infoContainer = document.getElementById( 'info-container' );
     infoContainer.textContent = '';
     infoContainer.innerHTML = `
